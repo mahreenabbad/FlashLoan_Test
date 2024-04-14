@@ -4,7 +4,7 @@ const {ethers} = require("hardhat");
 
 const {fundContract}= require("../utils/utilities.js");
 
-// const apiKey = "62EZWS2DGUPW3QARRMFDGQGN14DIDHZTSQ"
+
 
 const {abi,} =require("../artifacts/contracts/interfaces/IERC20.sol/IERC20.json")
 // The assert() method tests if a given expression is true or not. 
