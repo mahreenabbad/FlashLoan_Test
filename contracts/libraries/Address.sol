@@ -4,6 +4,7 @@ pragma solidity >=0.6.6;
 /**
  * @dev Collection of functions related to the address type
  */
+
 library Address {
     /**
      * @dev Returns true if `account` is a contract.
