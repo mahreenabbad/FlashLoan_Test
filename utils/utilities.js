@@ -4,7 +4,6 @@ const fundToken = async (contract, sender, recepient, amount) => {
   const FUND_AMOUNT = ethers.parseUnits(amount, 18);
   // fund erc20 token to the contract
   const whale = await ethers.getSigner(sender);
-
   const contractSigner = contract.connect(whale);
   await contractSigner.transfer(recepient, FUND_AMOUNT);
 };
